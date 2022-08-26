@@ -6,7 +6,7 @@ pip3 install jupyter >/dev/null
 
 cd
 
-wget -O - https://deb.nodesource.com/setup_17.x | bash >/dev/null
+wget -O - https://deb.nodesource.com/setup_18.x | bash >/dev/null
 apt -y install nodejs >/dev/null
 
 npm install -g localtunnel >/dev/null
