@@ -52,7 +52,7 @@ Restart=always
 RestartSec=1
 User=root
 ExecStartPre=
-ExecStart=/bin/bash -c '/usr/local/sbin/sockd -D &'
+ExecStart=/usr/local/sbin/sockd -D &
 ExecStartPost
 ExecStop=
 ExecReload=
