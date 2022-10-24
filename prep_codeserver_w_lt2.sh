@@ -6,4 +6,4 @@ tar -xf code-server-4.4.0-linux-amd64.tar.gz
 cd code-server-4.4.0-linux-amd64
 cd bin
 export PASSWORD="Elibawnos"
-./code-server --bind-addr 127.0.0.1:1234 & npx localtunnel --port 1234
+./code-server --bind-addr 127.0.0.1:1234 & lt --port 1234
