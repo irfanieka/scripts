@@ -1,6 +1,7 @@
 #!/bin/sh
 sudo -i
 apt update >/dev/null;apt -y install python3 python3-pip >/dev/null
+npm install -g localtunnel
 wget https://github.com/coder/code-server/releases/download/v4.4.0/code-server-4.4.0-linux-amd64.tar.gz
 tar -xf code-server-4.4.0-linux-amd64.tar.gz
 cd code-server-4.4.0-linux-amd64
